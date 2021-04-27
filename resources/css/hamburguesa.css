@@ -1,0 +1,116 @@
+.menu-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13vw;
+    height: 5vw;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+     /*border: 3px solid #fff; */
+}
+.menu-btn__burger {
+    width: 60%;
+    height: 3px;
+    background: #F48A00;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 3px;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+.menu-btn__burger::before {
+    transform: translateY(-7px);
+    background: #F56800;
+}
+.menu-btn__burger::after {
+    transform: translateY(7px);
+    background: #F4AC00;
+}
+/* ANIMATION */
+.menu-btn.open .menu-btn__burger {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+}
+.menu-btn.open .menu-btn__burger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+    width: 100%;
+}
+.menu-btn.open .menu-btn__burger::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+    width: 100%
+}
+
+
+
+.menu-btn-cls {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13vw;
+    height: 5vw;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+     /*border: 3px solid #fff; */
+}
+.menu-btn-cls__arrow {
+    width: 50%;
+    height: 3px;
+    background: #353535;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+.menu-btn-cls__arrow::before,
+.menu-btn-cls__arrow::after {
+    content: '';
+    position: absolute;
+    width: 27%;
+    height: 3px;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+.menu-btn-cls__arrow::before {
+    transform: translate(13.5px, -4px) rotate(45deg);
+    background: #353535;
+}
+.menu-btn-cls__arrow::after {
+    transform: translate(13.5px, 4px) rotate(-45deg);
+    background: #353535;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .menu-btn__burger,
+    .menu-btn__burger::before,
+    .menu-btn__burger::after{
+        width: 30%;
+    }
+
+    .menu-btn__burger::before{
+        transform: translateY(-10px);
+    }
+
+    .menu-btn__burger::after{
+        transform: translateY(10px);
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .menu-btn{
+		display: none;
+	}	
+}
+
+@media only screen and (min-width: 1201px) {
+	.menu-btn{
+		display: none;
+	}	
+}
