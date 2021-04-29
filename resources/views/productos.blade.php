@@ -8,48 +8,48 @@
     </div>
     <div class="row pt-4 m-lg-5 pl-lg-4 pr-lg-4 pt-lg-4 pb-lg-0 text-center" id="cont_prod">
         <div class="mb-3 mb-lg-4 mt-lg-1 col-12 col-lg-4 prod">
-            <a href=""><img src="<%= Routes.static_path(@conn, "/images/Acronis.jpg") %>"></a>
+            <a href=""><img src="{{ URL::asset('/img/Acronis.jpg') }}"></a>
         </div>
         <div class="mb-3 mb-lg-4 col-12 col-lg-5 prod" id="ASUS">
-            <a href=""><img src="<%= Routes.static_path(@conn, "/images/Asus.png") %>"></a>
+            <a href=""><img src="{{ URL::asset('/img/Asus.png') }}"></a>
         </div>
         <div class="mb-3 mb-lg-4 col-12 col-lg-3 prod">
-            <a href=""><img src="<%= Routes.static_path(@conn, "/images/DELL.png") %>"></a>
+            <a href=""><img src="{{ URL::asset('/img/DELL.png') }}"></a>
         </div>
         <div class="mb-3 mb-lg-4 col-12 col-lg-3 prod" id="AXIS">
-            <a href=""><img src="<%= Routes.static_path(@conn, "/images/AXIS.png") %>"></a>
+            <a href=""><img src="{{ URL::asset('/img/AXIS.png') }}"></a>
         </div>
         <div class="mb-3 mb-lg-4 col-12 col-lg-4 prod">
-            <a href=""><img src="<%= Routes.static_path(@conn, "/images/AVAYA.png") %>"></a>
+            <a href=""><img src="{{ URL::asset('/img/AVAYA.png') }}"></a>
         </div>
         <div class="mb-3 mb-lg-4 col-12 col-lg-5 prod" id="FORTINET">
-            <a href=""><img src="<%= Routes.static_path(@conn, "/images/FORTINET.png") %>"></a>
+            <a href=""><img src="{{ URL::asset('/img/FORTINET.png') }}"></a>
         </div>
         <!--
         <div class="mb-3 mb-lg-4 col-12 col-lg-3 prod">
-            <a href=""><img src="<%= Routes.static_path(@conn, "/images/Hikivision.png") %>"></a>
+            <a href=""><img src="{{ URL::asset('/img/Hikivision.png') }}"></a>
         </div>
         -->
         <div class="mb-3 mb-lg-4 col-12 col-lg-3 prod" id="HP">
-            <a href=""><img src="<%= Routes.static_path(@conn, "/images/HP.png") %>"></a>
+            <a href=""><img src="{{ URL::asset('/img/HP.png') }}"></a>
         </div>
         <div class="mb-3 mb-lg-4 col-12 col-lg-3 prod" id="JIVE">
-            <a href=""><img src="<%= Routes.static_path(@conn, "/images/JIVE.jpg") %>"></a>
+            <a href=""><img src="{{ URL::asset('/img/JIVE.jpg') }}"></a>
         </div>
         <div class="mb-3 mb-lg-4 col-12 col-lg-6 prod" id="MALWAREBYTES">
-            <a href=""><img src="<%= Routes.static_path(@conn, "/images/MALWAREBYTES.png") %>"></a>
+            <a href=""><img src="{{ URL::asset('/img/MALWAREBYTES.png') }}"></a>
         </div>
         <div class="mb-3 mb-lg-4 col-12 col-lg-6 prod" id="NUTANIX">
-            <a href=""><img src="<%= Routes.static_path(@conn, "/images/NUTANIX.png") %>"></a>
+            <a href=""><img src="{{ URL::asset('/img/NUTANIX.png') }}"></a>
         </div>
         <div class="mb-3 mb-lg-4 col-12 col-lg-6 prod" id="SONICWALL">
-            <a href=""><img src="<%= Routes.static_path(@conn, "/images/SONICWALL.png") %>"></a>
+            <a href=""><img src="{{ URL::asset('/img/SONICWALL.png') }}"></a>
         </div>
         <div class="mb-3 mb-lg-0 col-12 col-lg-7 prod" id="SPAMINA">
-            <a href=""><img src="<%= Routes.static_path(@conn, "/images/SPAMINA.png") %>"></a>
+            <a href=""><img src="{{ URL::asset('/img/SPAMINA.png') }}"></a>
         </div>
         <div class="mb-3 mb-lg-0 col-12 col-lg-5 prod" id="SEGURIDADF">
-            <a href=""><img src="<%= Routes.static_path(@conn, "/images/seguridad-f.jpg") %>"></a>
+            <a href=""><img src="{{ URL::asset('/img/seguridad-f.jpg') }}"></a>
         </div>
     </div><br><br>
 </main>

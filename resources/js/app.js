@@ -50,10 +50,10 @@ $(document).ready(function(){
 	}); 
 });
 
-function animImg (x){
+function animImg(x){
   x.classList.add("anim_Img");
 }
 
-function normalImg (x){
+function normalImg(x){
   x.classList.remove("anim_Img");
 }

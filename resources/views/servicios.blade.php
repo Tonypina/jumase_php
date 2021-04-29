@@ -110,8 +110,8 @@
         <div class="col-12 col-md-6 col-lg-6 col-xl-4 pr-4 pl-4 overflow-hidden services">
             <a href="Servicios/SeguridadFisica">
                 <div class="services-img overflow-hidden" onmouseover="animImg(this)" onmouseout="normalImg(this)">
-                    <img class="w-100" src="{{ URL::asset('/img/Servicio-SF.webp') }}" alt=""><br>
                     <div class="fondo_img"></div>
+                    <img class="w-100" src="{{ URL::asset('/img/Servicio-SF.webp') }}" alt=""><br>
                 </div>
             </a>
             <div class="services-txt pl-3 pr-3 pb-3 ">

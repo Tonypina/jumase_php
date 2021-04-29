@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
-
+use App\Http\Controllers\ContactoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,6 +35,7 @@ Route::get('/Servicios', function () {
 
 Route::get('/Servicios/{servicio}', [UserController::class, 'servicio']);
 
-Route::get('/Contacto', function () {
-    return view('contacto');
-});
+Route::get('/Contacto', [ContactoController::class, 'index'])->name('contacto.index');
+
+Route::post('/Contacto', [ContactoController::class, 'store'])->name('contacto.store');
+

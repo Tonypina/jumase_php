@@ -18,7 +18,7 @@
         <div id="formulario" class="col-12 col-md-7 anim_l">
             <br><br>
             <h2 class="text-center"><b>Contáctanos</b></h2><br><br>
-            <form class="pl-md-4 pr-md-4 pb-md-5 text-center">
+            <form action="{{ route('contacto.store') }}" method="POST" class="pl-md-4 pr-md-4 pb-md-5 text-center">
                 @csrf
                 <div class="form-row">
                     <div class="form-group col-md-6 text-justify">
@@ -49,8 +49,14 @@
                             placeholder="Escribe tu mensaje..." required></textarea>
                     </div>
                 </div>
-                <a href="/Contacto"><button type="submit" class="btn" id="submit-btn">Enviar</button></a>
+                <button type="submit" class="btn" id="submit-btn">Enviar</button>
             </form>
+
+            @if(session('info'))
+                <script>
+                    alert("{{ session('info') }}");
+                </script>
+            @endif
         </div>
     </div>
 </main>

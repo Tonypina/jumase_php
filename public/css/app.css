@@ -463,6 +463,7 @@ header.sticky{
 /*Main*/
 
 main{
+    overflow: hidden;
     transform: translateY(-8vh);
     font-family: 'Montserrat';
 }
@@ -598,6 +599,7 @@ main video{
 }
 
 .services-img{
+    overflow: hidden;
     position: relative;
     height: 24vh;
 }
