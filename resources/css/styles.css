@@ -140,7 +140,8 @@ aside ul{
 }
 
 .menu-btn-cls{
-    transform: translate(5vw, 2vh);
+    bottom: 7.5vh;
+    left: 6vw
 }
 
 nav div{
@@ -335,6 +336,10 @@ video{
 
 .carousel-inner{
     transform: translateY(-10vh);
+}
+
+.carousel-item h1{
+    color: white;
 }
 
 h1{

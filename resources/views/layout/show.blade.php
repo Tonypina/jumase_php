@@ -16,6 +16,8 @@
     <link rel="shortcut icon" href="{{ URL::asset('/img/Icon_png.png') }}">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="{{ URL::asset('/fonts/style.css') }}">
+
 </head>
 <body>
     <header id="header">

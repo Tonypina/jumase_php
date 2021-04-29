@@ -23,7 +23,7 @@ class ContactoController extends Controller
         ]);
 
         $correo = new ContactoMailer($request->all());
-        Mail::to('pina.rossette@jumase.com.mx')->send($correo);
+        Mail::to('contacto@jumase.com.mx')->send($correo);
         return redirect()->route('contacto.index')->with('info', 'Mensaje enviado');
     }
 }
