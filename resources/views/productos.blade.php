@@ -1,3 +1,6 @@
+@extends('layout.app')
+
+@section('content')
 <main id="main_prod" class="mt-md-4 pb-4 mb-4 container-fluid overflow-hidden">
     <div class="row intro mt-3 p-1 pr-lg-5 pl-lg-5 pb-lg-5 pt-lg-2">
         <h2 class="col-12 text-center">Nuestros Productos</h2>
@@ -50,3 +53,4 @@
         </div>
     </div><br><br>
 </main>
+@endsection
