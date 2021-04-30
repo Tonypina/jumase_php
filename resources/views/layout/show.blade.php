@@ -76,31 +76,17 @@
             <p class="col-12 text-center">
                 © 2020 JUMASE Informática
             </p>
-
-            <!-- 
-            <div class="col-12 text-center">                
-                <ul class="text-center">
-                        <li>
-                        © 2020 JUMASE Informática
-                        </li>
-                    <%= if Pow.Plug.current_user(@conn) do %>
-                        <li>
-                            <%= @current_user.email %>
-                        </li>
-                        <li>
-                            <%= link "Salir", to: Routes.pow_session_path(@conn, :delete), method: :delete %>
-                        </li>
-                    <% else %>
-                        <li>
-                            <%= link "Iniciar Sesión", to: Routes.pow_session_path(@conn, :new)%>
-                        </li>
-                    <% end %>
-                </ul>
-            </div>
-            -->
-
         </div>
     </footer>
+    <script>
+        function animImg(x){
+            x.classList.add("anim_Img");
+        }
+
+        function normalImg(x){
+            x.classList.remove("anim_Img");
+        }
+    </script>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
