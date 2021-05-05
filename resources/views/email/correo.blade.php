@@ -11,6 +11,6 @@
     <p><strong>Nombre: </strong>{{ $contacto['name'] }} {{ $contacto['lname'] }}</p>
     <p><strong>Correo: </strong>{{ $contacto['email'] }}</p>
     <p><strong>Asunto: </strong>{{ $contacto['subject'] }}</p>
-    <p><strong>Mensaje: </strong>{{ $contacto['body'] }}</p>
+    <p><strong>Cuerpo: </strong>{{ $contacto['body'] }}</p>
 </body>
 </html>

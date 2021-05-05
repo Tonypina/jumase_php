@@ -21,14 +21,14 @@
         </div>
     </div>
     <div class="fondo"></div>
-    <video src="{{ URL::asset('/img/VIDEO_JUMASE.mp4') }}" muted autoplay loop></video>
+    <video src="{{ URL::asset('public/img/VIDEO_JUMASE.mp4') }}" muted autoplay loop></video>
 </div>
 <div id="novedades-bg">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active text-center">
                 <div class="img-n">
-                    <img src="{{ URL::asset('/img/desarrollo-web.png') }}" alt="">
+                    <img src="{{ URL::asset('public/img/desarrollo-web.png') }}" alt="">
                 </div>
                 <div class="txt-n">
                     <h2>Desarrollo Web</h2>
@@ -37,7 +37,7 @@
             </div>
             <div class="carousel-item text-center">
                 <div id="Linux_Server" class="img-n">
-                    <img src="{{ URL::asset('/img/Linux_Server.jpg') }}" alt="">
+                    <img src="{{ URL::asset('public/img/Linux_Server.jpg') }}" alt="">
                 </div>
                 <div class="txt-n">
                     <h4>Linux Business Server Active Directory</h4>
@@ -47,7 +47,7 @@
             </div>
             <div class="carousel-item text-center">
                 <div id="JUMASE_Cloud" class="img-n">
-                    <img src="{{ URL::asset('/img/JUMASE_Cloud.png') }}" alt="">
+                    <img src="{{ URL::asset('public/img/JUMASE_Cloud.png') }}" alt="">
                 </div>
                 <div id="JUMASE_Cloud_txt" class="txt-n">
                     <h3>JUMASE Cloud Backup</h3>
@@ -76,7 +76,7 @@
             <a href="Servicios/Administrados">
                 <div class="services-img overflow-hidden" onmouseover="animImg(this)" onmouseout="normalImg(this)">
                     <img class="w-100 h-100"
-                        src="{{ URL::asset('/img/Serviciosadministrados.png') }}" alt=""><br>
+                        src="{{ URL::asset('public/img/Serviciosadministrados.png') }}" alt=""><br>
                     <div class="fondo_img"></div>
                 </div>
             </a>
@@ -90,7 +90,7 @@
         <div class="col-12 col-md-6 col-lg-6 col-xl-3 pl-4 pr-4 overflow-hidden services">
             <a href="Servicios/Virtualizacion">
                 <div class="services-img overflow-hidden" onmouseover="animImg(this)" onmouseout="normalImg(this)">
-                    <img class="w-100 h-100" src="{{ URL::asset('/img/Virtualizacion.jpeg') }}"
+                    <img class="w-100 h-100" src="{{ URL::asset('public/img/Virtualizacion.jpeg') }}"
                         alt=""><br>
                     <div class="fondo_img"></div>
                 </div>
@@ -105,7 +105,7 @@
         <div class="col-12 col-md-6 col-lg-6 col-xl-3 pl-4 pr-4 overflow-hidden services">
             <a href="Servicios/Comunicaciones">
                 <div class="services-img overflow-hidden" onmouseover="animImg(this)" onmouseout="normalImg(this)">
-                    <img class="w-100 h-100" src="{{ URL::asset('/img/Comunicaciones.jpeg') }}"
+                    <img class="w-100 h-100" src="{{ URL::asset('public/img/Comunicaciones.jpeg') }}"
                         alt=""><br>
                     <div class="fondo_img"></div>
                 </div>
@@ -120,7 +120,7 @@
         <div class="col-12 col-md-6 col-lg-6 col-xl-3 pl-4 pr-4 overflow-hidden services">
             <a href="Servicios/Ciberseguridad">
                 <div class="services-img overflow-hidden" onmouseover="animImg(this)" onmouseout="normalImg(this)">
-                    <img class="w-100 h-100" src="{{ URL::asset('/img/Ciberseguridad.jpeg') }}"
+                    <img class="w-100 h-100" src="{{ URL::asset('public/img/Ciberseguridad.jpeg') }}"
                         alt=""><br>
                     <div class="fondo_img"></div>
                 </div>

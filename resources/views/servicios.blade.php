@@ -10,7 +10,7 @@
         <div class="col-12 col-md-6 col-lg-6 col-xl-4 pr-4 pl-4 overflow-hidden services">
             <a href="Servicios/Administrados">
                 <div class="services-img overflow-hidden" onmouseover="animImg(this)" onmouseout="normalImg(this)">
-                    <img class="w-100" src="{{ URL::asset('/img/Serviciosadministrados.png') }}"
+                    <img class="w-100" src="{{ URL::asset('public/img/Serviciosadministrados.png') }}"
                         alt=""><br>
                     <div class="fondo_img"></div>
                 </div>
@@ -25,7 +25,7 @@
         <div class="col-12 col-md-6 col-lg-6 col-xl-4 pr-4 pl-4 overflow-hidden services">
             <a href="Servicios/Virtualizacion">
                 <div class="services-img overflow-hidden" onmouseover="animImg(this)" onmouseout="normalImg(this)">
-                    <img class="w-100" src="{{ URL::asset('/img/Virtualizacion.jpeg') }}" alt=""><br>
+                    <img class="w-100" src="{{ URL::asset('public/img/Virtualizacion.jpeg') }}" alt=""><br>
                     <div class="fondo_img"></div>
                 </div>
             </a>
@@ -39,7 +39,7 @@
         <div class="col-12 col-md-6 col-lg-6 col-xl-4 pr-4 pl-4 overflow-hidden services">
             <a href="Servicios/Comunicaciones">
                 <div class="services-img overflow-hidden" onmouseover="animImg(this)" onmouseout="normalImg(this)">
-                    <img class="w-100" src="{{ URL::asset('/img/Comunicaciones.jpeg') }}" alt=""><br>
+                    <img class="w-100" src="{{ URL::asset('public/img/Comunicaciones.jpeg') }}" alt=""><br>
                     <div class="fondo_img"></div>
                 </div>
             </a>
@@ -53,7 +53,7 @@
         <div class="col-12 col-md-6 col-lg-6 col-xl-4 pr-4 pl-4 overflow-hidden services">
             <a href="Servicios/Ciberseguridad">
                 <div class="services-img overflow-hidden" onmouseover="animImg(this)" onmouseout="normalImg(this)">
-                    <img class="w-100" src="{{ URL::asset('/img/Ciberseguridad.jpeg') }}" alt=""><br>
+                    <img class="w-100" src="{{ URL::asset('public/img/Ciberseguridad.jpeg') }}" alt=""><br>
                     <div class="fondo_img"></div>
                 </div>
             </a>
@@ -67,7 +67,7 @@
         <div class="col-12 col-md-6 col-lg-6 col-xl-4 pr-4 pl-4 overflow-hidden services">
             <a href="Servicios/Microsoft">
                 <div class="services-img overflow-hidden" onmouseover="animImg(this)" onmouseout="normalImg(this)">
-                    <img class="w-100" src="{{ URL::asset('/img/Servicio-Microsoft.webp') }}"
+                    <img class="w-100" src="{{ URL::asset('public/img/Servicio-Microsoft.webp') }}"
                         alt=""><br>
                     <div class="fondo_img"></div>
                 </div>
@@ -82,7 +82,7 @@
         <div class="col-12 col-md-6 col-lg-6 col-xl-4 pr-4 pl-4 overflow-hidden services">
             <a href="Servicios/MonitoreoDeRed">
                 <div class="services-img overflow-hidden" onmouseover="animImg(this)" onmouseout="normalImg(this)">
-                    <img class="w-100" src="{{ URL::asset('/img/Servicio-Red.webp') }}"" alt=""><br>
+                    <img class="w-100" src="{{ URL::asset('public/img/Servicio-Red.webp') }}"" alt=""><br>
                     <div class="fondo_img"></div>
                 </div>
             </a>
@@ -96,7 +96,7 @@
         <div class="col-12 col-md-6 col-lg-6 col-xl-4 pr-4 pl-4 overflow-hidden services">
             <a href="Servicios/Respaldo">
                 <div class="services-img overflow-hidden" onmouseover="animImg(this)" onmouseout="normalImg(this)">
-                    <img class="w-100" src="{{ URL::asset('/img/Servicio-Respaldo.webp') }}"
+                    <img class="w-100" src="{{ URL::asset('public/img/Servicio-Respaldo.webp') }}"
                         alt=""><br>
                     <div class="fondo_img"></div>
                 </div>
@@ -111,7 +111,7 @@
             <a href="Servicios/SeguridadFisica">
                 <div class="services-img overflow-hidden" onmouseover="animImg(this)" onmouseout="normalImg(this)">
                     <div class="fondo_img"></div>
-                    <img class="w-100" src="{{ URL::asset('/img/Servicio-SF.webp') }}" alt=""><br>
+                    <img class="w-100" src="{{ URL::asset('public/img/Servicio-SF.webp') }}" alt=""><br>
                 </div>
             </a>
             <div class="services-txt pl-3 pr-3 pb-3 ">
@@ -124,7 +124,7 @@
         <div class="col-12 col-md-6 col-lg-6 col-xl-4 pr-4 pl-4 overflow-hidden services">
             <a href="Servicios/Telefonia">
                 <div class="services-img overflow-hidden" onmouseover="animImg(this)" onmouseout="normalImg(this)">
-                    <img class="w-100" src="{{ URL::asset('/img/Servicio-Tel.webp') }}" alt=""><br>
+                    <img class="w-100" src="{{ URL::asset('public/img/Servicio-Tel.webp') }}" alt=""><br>
                     <div class="fondo_img"></div>
                 </div>
             </a>

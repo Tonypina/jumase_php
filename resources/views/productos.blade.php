@@ -8,48 +8,48 @@
     </div>
     <div class="row pt-4 m-lg-5 pl-lg-4 pr-lg-4 pt-lg-4 pb-lg-0 text-center" id="cont_prod">
         <div class="mb-3 mb-lg-4 mt-lg-1 col-12 col-lg-4 prod">
-            <a href=""><img src="{{ URL::asset('/img/Acronis.jpg') }}"></a>
+            <a href=""><img src="{{ URL::asset('public/img/Acronis.jpg') }}"></a>
         </div>
         <div class="mb-3 mb-lg-4 col-12 col-lg-5 prod" id="ASUS">
-            <a href=""><img src="{{ URL::asset('/img/Asus.png') }}"></a>
+            <a href=""><img src="{{ URL::asset('public/img/Asus.png') }}"></a>
         </div>
         <div class="mb-3 mb-lg-4 col-12 col-lg-3 prod">
-            <a href=""><img src="{{ URL::asset('/img/DELL.png') }}"></a>
+            <a href=""><img src="{{ URL::asset('public/img/DELL.png') }}"></a>
         </div>
         <div class="mb-3 mb-lg-4 col-12 col-lg-3 prod" id="AXIS">
-            <a href=""><img src="{{ URL::asset('/img/AXIS.png') }}"></a>
+            <a href=""><img src="{{ URL::asset('public/img/AXIS.png') }}"></a>
         </div>
         <div class="mb-3 mb-lg-4 col-12 col-lg-4 prod">
-            <a href=""><img src="{{ URL::asset('/img/AVAYA.png') }}"></a>
+            <a href=""><img src="{{ URL::asset('public/img/AVAYA.png') }}"></a>
         </div>
         <div class="mb-3 mb-lg-4 col-12 col-lg-5 prod" id="FORTINET">
-            <a href=""><img src="{{ URL::asset('/img/FORTINET.png') }}"></a>
+            <a href=""><img src="{{ URL::asset('public/img/FORTINET.png') }}"></a>
         </div>
         <!--
         <div class="mb-3 mb-lg-4 col-12 col-lg-3 prod">
-            <a href=""><img src="{{ URL::asset('/img/Hikivision.png') }}"></a>
+            <a href=""><img src="{{ URL::asset('public/img/Hikivision.png') }}"></a>
         </div>
         -->
         <div class="mb-3 mb-lg-4 col-12 col-lg-3 prod" id="HP">
-            <a href=""><img src="{{ URL::asset('/img/HP.png') }}"></a>
+            <a href=""><img src="{{ URL::asset('public/img/HP.png') }}"></a>
         </div>
         <div class="mb-3 mb-lg-4 col-12 col-lg-3 prod" id="JIVE">
-            <a href=""><img src="{{ URL::asset('/img/JIVE.jpg') }}"></a>
+            <a href=""><img src="{{ URL::asset('public/img/JIVE.jpg') }}"></a>
         </div>
         <div class="mb-3 mb-lg-4 col-12 col-lg-6 prod" id="MALWAREBYTES">
-            <a href=""><img src="{{ URL::asset('/img/MALWAREBYTES.png') }}"></a>
+            <a href=""><img src="{{ URL::asset('public/img/MALWAREBYTES.png') }}"></a>
         </div>
         <div class="mb-3 mb-lg-4 col-12 col-lg-6 prod" id="NUTANIX">
-            <a href=""><img src="{{ URL::asset('/img/NUTANIX.png') }}"></a>
+            <a href=""><img src="{{ URL::asset('public/img/NUTANIX.png') }}"></a>
         </div>
         <div class="mb-3 mb-lg-4 col-12 col-lg-6 prod" id="SONICWALL">
-            <a href=""><img src="{{ URL::asset('/img/SONICWALL.png') }}"></a>
+            <a href=""><img src="{{ URL::asset('public/img/SONICWALL.png') }}"></a>
         </div>
         <div class="mb-3 mb-lg-0 col-12 col-lg-7 prod" id="SPAMINA">
-            <a href=""><img src="{{ URL::asset('/img/SPAMINA.png') }}"></a>
+            <a href=""><img src="{{ URL::asset('public/img/SPAMINA.png') }}"></a>
         </div>
         <div class="mb-3 mb-lg-0 col-12 col-lg-5 prod" id="SEGURIDADF">
-            <a href=""><img src="{{ URL::asset('/img/seguridad-f.jpg') }}"></a>
+            <a href=""><img src="{{ URL::asset('public/img/seguridad-f.jpg') }}"></a>
         </div>
     </div><br><br>
 </main>

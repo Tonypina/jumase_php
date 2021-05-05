@@ -10,18 +10,17 @@
     <meta name="Keywords" content="tecnología, NUTANIX, web, nube, Cisco, JIVE, redes, seguridad, ciberseguridad, datos, switches, red, switch, router, firewall" >
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('public/css/app.css') }}">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="shortcut icon" href="{{ URL::asset('/img/Icon_png.png') }}">
+    <link rel="shortcut icon" href="{{ URL::asset('public/img/Icon_png.png') }}">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
-    <link rel="stylesheet" href="{{ URL::asset('/fonts/style.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('public/fonts/style.css') }}">
 
 </head>
 <body>
     <header id="header">
-        <a href="/Inicio"><img class="icono" src="{{ URL::asset('/img/Icon_png.png') }}" alt=""></a>
+        <a href="/Inicio"><img class="icono" src="{{ URL::asset('public/img/Icon_png.png') }}" alt=""></a>
         <nav>
             <ul>
                 <li><a href="/Inicio">Inicio</a></li>
@@ -31,7 +30,7 @@
                 <li><a href="/Contacto">Contacto</a></li>
             </ul>
         </nav>
-        <img class="letras stickys" src="{{ URL::asset('/img/Logo_final.png') }}" alt="">
+        <img class="letras stickys" src="{{ URL::asset('public/img/Logo_final.png') }}" alt="">
         <div class="menu-btn">
             <div class="menu-btn__burger"></div>
         </div>
@@ -39,7 +38,7 @@
     </header>
     <aside>
         <nav>
-            <div><a href="/Inicio"><img src="{{ URL::asset('/img/Letras_png.png') }}" alt=""></a></div>
+            <div><a href="/Inicio"><img src="{{ URL::asset('public/img/Letras_png.png') }}" alt=""></a></div>
             <ul>
                 <li><a href="/Inicio">Inicio</a></li>
                 <li><a href="/Nosotros">Nosotros</a></li>
@@ -63,7 +62,7 @@
     <footer class="container-fluid">
         <div class="row pr-5 pl-5 mt-2 text-center">
             <div class="col-lg-4">
-                <img src="{{ URL::asset('/img/Logo_final.png') }}" alt="">                
+                <img src="{{ URL::asset('public/img/Logo_final.png') }}" alt="">                
             </div>
             <div class="col-lg-4"><h6>¡Recuerda si la solución o producto que buscas no esta listado en nuestro sitio contáctanos y te lo conseguimos!</h6></div>
             <div class="mt-2 mb-2 col-lg-4 redes">
@@ -76,21 +75,34 @@
             <p class="col-12 text-center">
                 © 2020 JUMASE Informática
             </p>
+
+            <!-- 
+            <div class="col-12 text-center">                
+                <ul class="text-center">
+                        <li>
+                        © 2020 JUMASE Informática
+                        </li>
+                    <%= if Pow.Plug.current_user(@conn) do %>
+                        <li>
+                            <%= @current_user.email %>
+                        </li>
+                        <li>
+                            <%= link "Salir", to: Routes.pow_session_path(@conn, :delete), method: :delete %>
+                        </li>
+                    <% else %>
+                        <li>
+                            <%= link "Iniciar Sesión", to: Routes.pow_session_path(@conn, :new)%>
+                        </li>
+                    <% end %>
+                </ul>
+            </div>
+            -->
+
         </div>
     </footer>
-    <script>
-        function animImg(x){
-            x.classList.add("anim_Img");
-        }
-
-        function normalImg(x){
-            x.classList.remove("anim_Img");
-        }
-    </script>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script defer type="text/javascript" src="{{ URL::asset('/js/app.js') }}"></script>
+<script defer type="text/javascript" src="{{ URL::asset('public/js/app.js') }}"></script>
 </html>
