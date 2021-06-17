@@ -96,101 +96,101 @@
                     @switch($servicio)
                         @case(1)
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-admin(1).webp') }}" alt="First slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-admin(1).webp') }}" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-admin(2).webp') }}" alt="Second slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-admin(2).webp') }}" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-admin(3).webp') }}" alt="Third slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-admin(3).webp') }}" alt="Third slide">
                             </div>
                             @break
                         @case(2)
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-virtual(1).webp') }}" alt="First slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-Virtual(1).webp') }}" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-virtual(2).webp') }}" alt="Second slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-Virtual(2).webp') }}" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-virtual(3).webp') }}" alt="Third slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-Virtual(3).webp') }}" alt="Third slide">
                             </div>
                             @break
                         @case(3)
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-Com(1).webp') }}" alt="First slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-Com(1).webp') }}" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-Com(2).webp') }}" alt="Second slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-Com(2).webp') }}" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-Com(3).webp') }}" alt="Third slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-Com(3).webp') }}" alt="Third slide">
                             </div>
                             @break
                         @case(4)
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-Seguridad(1).webp') }}" alt="First slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-Seguridad(1).webp') }}" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-Seguridad(2).webp') }}" alt="Second slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-Seguridad(2).webp') }}" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-Seguridad(3).webp') }}" alt="Third slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-Seguridad(3).webp') }}" alt="Third slide">
                             </div>
                             @break
                         @case(5)
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-microsoft(1).webp') }}" alt="First slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-microsoft(1).webp') }}" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-microsoft(2).webp') }}" alt="Second slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-microsoft(2).webp') }}" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-microsoft(3).webp') }}" alt="Third slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-microsoft(3).webp') }}" alt="Third slide">
                             </div>
                             @break
                         @case(6)
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-Red(1).webp') }}" alt="First slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-Red(1).webp') }}" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-Red(2).webp') }}" alt="Second slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-Red(2).webp') }}" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-Red(3).webp') }}" alt="Third slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-Red(3).webp') }}" alt="Third slide">
                             </div>
                             @break
                         @case(7)
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-Respaldo(1).webp') }}" alt="First slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-Respaldo(1).webp') }}" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-Respaldo(2).webp') }}" alt="Second slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-Respaldo(2).webp') }}" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-Respaldo(3).webp') }}" alt="Third slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-Respaldo(3).webp') }}" alt="Third slide">
                             </div>
                             @break
                         @case(8)
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-SF(1).webp') }}" alt="First slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-SF(1).webp') }}" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-SF(2).webp') }}" alt="Second slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-SF(2).webp') }}" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-SF(3).webp') }}" alt="Third slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-SF(3).webp') }}" alt="Third slide">
                             </div>
                             @break
                         @case(9)
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-Tel(1).webp') }}" alt="First slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-Tel(1).webp') }}" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-Tel(2).webp') }}" alt="Second slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-Tel(2).webp') }}" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="{{ URL::asset('public/img/Carousel-Tel(3).webp') }}" alt="Third slide">
+                                <img class="d-block w-100" src="{{ URL::asset('/img/Carousel-Tel(3).webp') }}" alt="Third slide">
                             </div>
                             @break
                     @endswitch

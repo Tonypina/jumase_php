@@ -105,6 +105,11 @@
 		height: 10vw;
 	}
 
+	#title_prod{
+		background: rgb(255,172,15);
+    	background: linear-gradient(90deg, rgba(255,172,15,1) 0%, rgba(213,125,0,1) 35%, rgba(245,104,0,1) 100%);
+	}
+
 	#formulario{
 		display: inline-block;
 	}
@@ -112,6 +117,10 @@
 
  /*Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
+
+	#header{
+		display: block;
+	}
 
 	header{
 		bottom: 8vh;
@@ -190,6 +199,11 @@
 		display: inline-block;
 	}
 	
+	#title_prod{
+		background: rgb(255,172,15);
+    	background: linear-gradient(90deg, rgba(255,172,15,1) 0%, rgba(213,125,0,1) 35%, rgba(245,104,0,1) 100%);
+	}
+
 	footer p{
 		font-size: small;
 	}
@@ -197,7 +211,8 @@
 	/*Animaciones*/
 
 	nav a:hover{
-		font-size: 1.7vw;
+		/* transform: scale(1.2); */
+		/* font-size: 1.7vw; */
 		color: #F56800;
 		text-decoration: none;
 	}
@@ -206,8 +221,12 @@
  /*Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1201px) {
 	
+	#header{
+		display: block;
+	}
+
 	header{
-		height: 5.6vw;
+		height: 5vw;
 	}
 
 	header nav{
@@ -227,7 +246,7 @@
 
 	nav li{
 		display: inline-block;
-		transform: translateY(3.5vh);
+		transform: translateY(2vh);
 		margin-left: 7vw;
 		font-family: 'Montserrat';
 	}
@@ -239,30 +258,34 @@
 
 	.icono{
 		height: 6vh;
-		transform: translate(2vw, 3vh);
+		transform: translate(2vw, 2vh);
 	}
 
 	.letras{
 		display: inline-block;
 		height: 7vh;
-		transform: translate(15vw, 3vh);
+		transform: translate(15vw, 2vh);
 	}
 
 	.letras.sticky{
 		height: 7vh;
-		transform: translate(15vw, 3vh);
+		transform: translate(15vw, 2vh);
 	}
 
 	
 	.letras.stickys{
 		height: 7vh;
-		transform: translate(15vw, 3vh);
+		transform: translate(15vw, 1.5vh);
 	}
 
 	nav a:hover{
-		font-size: 1.3vw;
+		/* font-size: 1.3vw; */
 		color: #F56800;
 		text-decoration: none;
+	}
+
+	nav li:hover{
+		transform: scale(1.1) translateY(1.7vh);
 	}
 
 	.video-container{
@@ -341,44 +364,27 @@
 		transform: translate(14vw, -4vh);
 	}
 
-	.intro p{
-		display: inline-block;
+	#main_prod{
+		/* background-color: lightslategray; */
 	}
 
-	#main_prod a{
-		width: 80%;
+	#products{
+		background-color: white;
 	}
 
-	#ASUS{
-		transform: translateY(2.5vh);
-	}
-
-	#AXIS, #FORTINET{
-		transform: translateY(2.5vh);
-	}
-
-	#HP{
-		transform: translateY(1vh);
+	#title_prod{
+		background: rgb(255,172,15);
+    	background: linear-gradient(90deg, rgba(255,172,15,1) 0%, rgba(213,125,0,1) 35%, rgba(245,104,0,1) 100%);
 	}
 
 	#JIVE{
-		transform: translateY(1.5vh);
+		height: 80%;
+		margin-top: 3vh;
 	}
 
-	#NUTANIX{
-		transform: translateY(-2vh);
-	}
-
-	#SONICWALL{
-		transform: translateY(-6vh);
-	}
-
-	#SPAMINA{
-		transform: translateY(-1vh);
-	}
-
-	#SEGURIDADF{
-		transform: translateY(-9vh);
+	#FORTINET{
+		height: 70%;
+		margin-top: 3vh;
 	}
 
 	.linkedin{

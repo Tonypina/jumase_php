@@ -113,8 +113,7 @@
 	.menu-btn{
 		display: none;
 	}	
-}
-*{
+}*{
     margin:0;
     padding: 0;
     box-sizing: border-box;
@@ -128,7 +127,7 @@
 
 ::-webkit-scrollbar
 {
-	width: 10px;
+	width: 7px;
 	background-color: #F5F5F5;
 }
 
@@ -146,6 +145,7 @@ body{
 /*Nav Bar*/
 
 header{
+    /* display: none; */
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -157,6 +157,10 @@ header{
             animation-duration: .5s;
     -webkit-animation-name: inicio;
             animation-name: inicio;
+}
+
+#header{
+    display: none;
 }
 
 .letras{
@@ -199,8 +203,11 @@ li.dropdown {
     display: none;
     position: absolute;
     background-color: #353535;
-    transform: translateY(3.5vh);
-    height:450px;
+    top: 1.2vh;
+    left: -1.75vw;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
     width: 200px;
     border-radius: 0;
     min-width: 160px;
@@ -215,49 +222,60 @@ li.dropdown {
     display: block;
     text-align: left;
 }
-  
-.dropdown-content a:hover {background-color: #f1f1f1;}
-  
+   
 .dropdown:hover .dropdown-content {
     display: block;
+    transform: scale(0.85);
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    transform: scale(1);
 }
 
 aside{
-    /*opacity:.9;*/
+    overflow: hidden;
     background-color: #F56800;
 	background-image: -webkit-linear-gradient(90deg, rgba(255,172,15,1) 0%, rgba(213,125,0,1) 35%, rgba(245,104,0,1) 100%);
     position: fixed;
-    width: 73%;
-    height: 92vh;
+    width: 100%;
+    height: 100%;
     border-radius: 0 0 0 5vw;
     right: -100vw;
-    top: 0;
+    top: 17.8vw;
     transition: all .8s;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
     z-index: 10;
 }
 
 aside ul{
-    transform: translateX(10vw);
+    transform: translateX(15vw);
+    margin: 10vw;
+    margin-left: 0;
+    font-family: 'Montserrat';
+    font-size: 6vw;
+    list-style-type: none;
+}
+
+aside p{
+    transform: translateX(15vw);
+    margin-left: 0;
+    font-family: 'Montserrat';
+    font-size: 2vh;
 }
 
 #icons_aside{
     width: 100%;
-    transform: translateX(0vw);
+    margin-top: 0;
+    margin-bottom: 0;
     padding-top: 3vh;
-    border-top: dotted thin #353535;
     display: inline-block;
 }
 
 #icons_aside li{
     display: inline-block;
-    margin-left: 6.5vh;
-    font-size: x-large;
-}
-
-.menu-btn-cls{
-    bottom: 7.5vh;
-    left: 6vw
+    margin-right: 3vh;
+    font-size: large;
 }
 
 nav div{
@@ -284,6 +302,7 @@ nav ul{
 
 nav li{
     margin-bottom: 10vw;
+    transition: .5s;
 }
 
 nav a{
@@ -400,13 +419,21 @@ aside a{
 }
 
 nav a:hover{
-    font-size: 6vw;
+    transform: scale(1.2);
+    /* font-size: 6vw; */
     text-decoration: none;
     color: #353535;
 }
 
 aside.open{
     right: 0;
+}
+
+aside.open li{
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-name: slidein_r;
+            animation-name: slidein_r;
 }
 
 header.open{
@@ -420,9 +447,21 @@ header.bgcolor{
     transition: all .35s ease-in-out;
 }
 
+#header.sticky{
+    display: block;
+}
+
 header.sticky{
+    display: block;
     position: fixed;
     top: 0;
+}
+
+.anim_i{
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-name: inicio;
+            animation-name: inicio;
 }
 
 .anim_l{
@@ -691,6 +730,10 @@ main video{
 
 /*Servicios.html*/
 
+.services{
+    overflow: hidden;
+}
+
 .services-img{
     border-radius: 5px 5px 5px 5px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
@@ -700,39 +743,25 @@ main video{
 
 /*Productos.html*/
 
-.intro h2 {
-    font-weight: bold;
-    margin-bottom: 40px;
-    padding-top: 40px;
-    color: white;
+.negritas{
+    color: #F56800;
 }
 
-.intro {
-    width: 100vw;
-    font-size: 16px;
-    background-color: rgb(146, 145, 145);
+#title_prod{
+    overflow: hidden;
 }
 
-#main_prod{
-    background: rgb(255,172,15);
-    background: linear-gradient(90deg, rgba(255,172,15,1) 0%, rgba(213,125,0,1) 35%, rgba(245,104,0,1) 100%);
+#title_prod h2{
+    /* color: ; */
 }
 
-.intro p {
-    display: none;
-    margin-bottom: 0;
-    color: white;
+#products .product img{
+    /* height: 80%; */
 }
 
-#cont_prod{
-    background-color: rgb(53, 53, 53);
-    border-radius: .5vh;
-}
-
-
-.prod img{
-    width: 100%;
-    border-radius: 1vh;
+#products .product .fondo_img{
+    height: 100%;
+    width: 90%;
 }
 
 /*Fin Productos*/
@@ -826,7 +855,6 @@ footer a:hover, .linkedin:hover{
 }
 
 /*Fin Footer*/
-
 
 
 
@@ -936,6 +964,11 @@ footer a:hover, .linkedin:hover{
 		height: 10vw;
 	}
 
+	#title_prod{
+		background: rgb(255,172,15);
+    	background: linear-gradient(90deg, rgba(255,172,15,1) 0%, rgba(213,125,0,1) 35%, rgba(245,104,0,1) 100%);
+	}
+
 	#formulario{
 		display: inline-block;
 	}
@@ -943,6 +976,10 @@ footer a:hover, .linkedin:hover{
 
  /*Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
+
+	#header{
+		display: block;
+	}
 
 	header{
 		bottom: 8vh;
@@ -1022,6 +1059,11 @@ footer a:hover, .linkedin:hover{
 		display: inline-block;
 	}
 	
+	#title_prod{
+		background: rgb(255,172,15);
+    	background: linear-gradient(90deg, rgba(255,172,15,1) 0%, rgba(213,125,0,1) 35%, rgba(245,104,0,1) 100%);
+	}
+
 	footer p{
 		font-size: small;
 	}
@@ -1029,7 +1071,8 @@ footer a:hover, .linkedin:hover{
 	/*Animaciones*/
 
 	nav a:hover{
-		font-size: 1.7vw;
+		/* transform: scale(1.2); */
+		/* font-size: 1.7vw; */
 		color: #F56800;
 		text-decoration: none;
 	}
@@ -1038,8 +1081,12 @@ footer a:hover, .linkedin:hover{
  /*Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1201px) {
 	
+	#header{
+		display: block;
+	}
+
 	header{
-		height: 5.6vw;
+		height: 5vw;
 	}
 
 	header nav{
@@ -1059,7 +1106,7 @@ footer a:hover, .linkedin:hover{
 
 	nav li{
 		display: inline-block;
-		transform: translateY(3.5vh);
+		transform: translateY(2vh);
 		margin-left: 7vw;
 		font-family: 'Montserrat';
 	}
@@ -1072,30 +1119,34 @@ footer a:hover, .linkedin:hover{
 
 	.icono{
 		height: 6vh;
-		transform: translate(2vw, 3vh);
+		transform: translate(2vw, 2vh);
 	}
 
 	.letras{
 		display: inline-block;
 		height: 7vh;
-		transform: translate(15vw, 3vh);
+		transform: translate(15vw, 2vh);
 	}
 
 	.letras.sticky{
 		height: 7vh;
-		transform: translate(15vw, 3vh);
+		transform: translate(15vw, 2vh);
 	}
 
 	
 	.letras.stickys{
 		height: 7vh;
-		transform: translate(15vw, 3vh);
+		transform: translate(15vw, 1.5vh);
 	}
 
 	nav a:hover{
-		font-size: 1.3vw;
+		/* font-size: 1.3vw; */
 		color: #F56800;
 		text-decoration: none;
+	}
+
+	nav li:hover{
+		transform: scale(1.1) translateY(1.7vh);
 	}
 
 	.video-container{
@@ -1174,44 +1225,27 @@ footer a:hover, .linkedin:hover{
 		transform: translate(14vw, -4vh);
 	}
 
-	.intro p{
-		display: inline-block;
+	#main_prod{
+		/* background-color: lightslategray; */
 	}
 
-	#main_prod a{
-		width: 80%;
+	#products{
+		background-color: white;
 	}
 
-	#ASUS{
-		transform: translateY(2.5vh);
-	}
-
-	#AXIS, #FORTINET{
-		transform: translateY(2.5vh);
-	}
-
-	#HP{
-		transform: translateY(1vh);
+	#title_prod{
+		background: rgb(255,172,15);
+    	background: linear-gradient(90deg, rgba(255,172,15,1) 0%, rgba(213,125,0,1) 35%, rgba(245,104,0,1) 100%);
 	}
 
 	#JIVE{
-		transform: translateY(1.5vh);
+		height: 80%;
+		margin-top: 3vh;
 	}
 
-	#NUTANIX{
-		transform: translateY(-2vh);
-	}
-
-	#SONICWALL{
-		transform: translateY(-6vh);
-	}
-
-	#SPAMINA{
-		transform: translateY(-1vh);
-	}
-
-	#SEGURIDADF{
-		transform: translateY(-9vh);
+	#FORTINET{
+		height: 70%;
+		margin-top: 3vh;
 	}
 
 	.linkedin{
@@ -1252,5 +1286,4 @@ footer a:hover, .linkedin:hover{
 /*orientación vertical */
 @media (orientation:portrait){
 
-}
-/* recopilación de todos los archivos de estilado */
+}/* recopilación de todos los archivos de estilado */
